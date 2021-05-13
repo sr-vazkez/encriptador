@@ -1,1 +1,2 @@
-main.py
+from cryptography.fernet import fernet
+import os
