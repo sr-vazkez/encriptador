@@ -13,7 +13,7 @@ def generateKey():
 def retornarkey():
      '''
           Funcion retornarkey 
-          Nos retorna el valor del key
+          Nos retorna el valor del key agregando comentario
      '''
      return open("key.key", "rb").read()
 
