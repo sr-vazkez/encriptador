@@ -10,3 +10,9 @@ def generateKey():
      with open("key.key", "wb") as key_file:
           key_file.write(key)
 
+def retornarkey():
+     '''
+          Funcion retornarkey 
+          Nos retorna el valor del key
+     '''
+     return open("key.key", "rb").read()
