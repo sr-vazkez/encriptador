@@ -37,7 +37,7 @@ if __name__ == "__main__":
     # En la siguiente linea se debe de escribir la ruta de los archivos a encryptar
     # Dependiendo el sistema ooperativo descomentar codigo
     # Ejemplo MacOs y Linux
-    archivos = '/Users/paulvazquezcervantes/Desktop/xdxdx'
+    archivos = '/Users/papichiludo/Desktop/xdxdx'
     items = os.listdir(archivos)
     archivos_2 = [archivos + "//" + x for x in items]
     # Ejemplo Windows
